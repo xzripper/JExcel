@@ -37,5 +37,8 @@ from JExcel.jexcel import jev
 print(jev())
 ```
 
+# Known issue.
+No support for nested dictionaries in json,<br>if dict will be in dict,<br>it's raise error "OverflowError: too many dicts".<br>In future i am going to fix it.
+
 # End.
 Thanks for reading, have a good day, bye!
